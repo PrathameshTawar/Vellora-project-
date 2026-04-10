@@ -1,0 +1,14 @@
+# Runtime dependencies
+pyautogen
+pinecone-client
+tavily-python
+google-search-results
+sentence-transformers
+openai
+gradio
+plotly
+matplotlib
+fpdf2
+python-pptx
+jsonschema
+pydantic-settings>=2.0

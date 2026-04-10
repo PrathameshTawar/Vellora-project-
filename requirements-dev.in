@@ -1,0 +1,12 @@
+# Dev dependencies
+ruff
+mypy
+pytest
+pytest-cov
+pytest-asyncio
+hypothesis
+black
+pre-commit
+pip-tools
+types-all
+

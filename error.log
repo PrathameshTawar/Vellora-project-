@@ -1,0 +1,23 @@
+2026-04-10 11:57:46,865 [WARNING] __main__: KnowledgeStore could not be initialised: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'x-pinecone-api-version': '2025-10', 'x-cloud-trace-context': '7acd805ab293df3241c31e45754946fc', 'date': 'Fri, 10 Apr 2026 06:27:45 GMT', 'content-type': 'text/html', 'server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2026-04-10 11:57:46,865 [INFO] __main__: SessionStore initialised.
+C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\flaml\__init__.py:20: UserWarning: flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.
+  warnings.warn("flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.")
+2026-04-10 11:57:49,385 [WARNING] autogen.oai.client: The API key specified is not a valid OpenAI format; it won't work with the OpenAI-hosted model.
+2026-04-10 11:57:49,407 [WARNING] autogen.oai.client: The API key specified is not a valid OpenAI format; it won't work with the OpenAI-hosted model.
+2026-04-10 11:57:49,421 [WARNING] autogen.oai.client: The API key specified is not a valid OpenAI format; it won't work with the OpenAI-hosted model.
+2026-04-10 11:57:49,435 [WARNING] autogen.oai.client: The API key specified is not a valid OpenAI format; it won't work with the OpenAI-hosted model.
+2026-04-10 11:57:49,452 [WARNING] autogen.oai.client: The API key specified is not a valid OpenAI format; it won't work with the OpenAI-hosted model.
+2026-04-10 11:57:49,452 [INFO] __main__: All agents instantiated.
+2026-04-10 11:57:49,462 [INFO] __main__: SwarmOrchestrator instantiated.
+2026-04-10 11:57:49,462 [INFO] __main__: ExportModule instantiated.
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\vellor\swarmiq\main.py", line 139, in <module>
+    from swarmiq.ui.app import create_ui  # noqa: E402
+  File "C:\Users\HP\Desktop\vellor\swarmiq\ui\app.py", line 87
+    \"\"\"Build rows for the explainability dataframe from PipelineResult.\"\"\"
+     ^
+SyntaxError: unexpected character after line continuation character
